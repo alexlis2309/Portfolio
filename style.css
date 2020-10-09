@@ -1,0 +1,27 @@
+body {
+    background: url("1.jpg") no-repeat;
+    background-size: 100%;
+}
+.curled {
+    background: url("2.jpg") no-repeat;
+    background-size: 100%;
+      position:relative;
+      width:95%;
+      height:880px;
+      padding:2em;
+      margin:0 auto;
+      border-radius:50% 50% 50% 50% / 50px 50px 50px 50px;
+        box-shadow:0 0 20px 10px #000;
+    opacity: 0.7;
+  }
+.curled2 {
+    position:relative;
+    width:98%;
+    background-color: rgba(88, 131, 85, 1);
+    height:97%;
+    padding:1em;
+    margin:0 auto;
+    -moz-border-radius:0 0 120px 120px / 0 0 6px 6px;
+    border-radius:50% 50% 50% 50% / 50px 50px 50px 50px;
+    opacity: 1;
+}
