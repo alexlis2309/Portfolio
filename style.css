@@ -25,3 +25,8 @@ body {
     border-radius:50% 50% 50% 50% / 50px 50px 50px 50px;
     opacity: 1;
 }
+h3{
+    font-family: Game;
+    color: rgba(159,249,149,1);
+    padding: 20px 0 0 10px;
+}
