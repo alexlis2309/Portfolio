@@ -13,7 +13,10 @@ function start(text,loa) {
                 {
                     clearInterval(timer);
                 }
-             else   {loa.textContent += text[loaderIndex];} 
+            else
+                {
+                    loa.textContent += text[loaderIndex];
+                }
     }, 100);
 }
 let count = 0;
