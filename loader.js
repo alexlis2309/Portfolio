@@ -1,32 +1,32 @@
 let loader = document.getElementById("loader");
 let loaderDel = document.querySelector(".loader");
-let loaderText = "Loading... ";
+let loaderText = "Loading...";
 let loaderIndex = -1;
-//------------alternate typing timer-----------------------
-function start() {
+//-----------------------------------------------------------alternate typing function
+function start(text,loa) {
    let timer = window.setInterval(function () {
-        if (++loaderIndex === loaderText.length) {
+        if (++loaderIndex === text.length) {
             clearInterval(timer);
         }
         else
-            if (loaderIndex>8)
-            {
-                clearInterval(timer);
-            }
-            loader.textContent += loaderText[loaderIndex];
+            if (text[loaderIndex] === undefined)
+                {
+                    clearInterval(timer);
+                }
+             else   {loa.textContent += text[loaderIndex];} 
     }, 100);
 }
-//-----timer for calling a function start() 5 times---------
 let count = 0;
+//----------------------------------------------------------function-timer to do start() 5 times
 intervalId = setInterval(function () {
     if (++count === 5) {
         clearInterval(intervalId);
         loaderDel.parentNode.removeChild(loaderDel);
     }
     else {
-        start();
+        start(loaderText, loader);
+        loaderIndex=-1;
         loader.textContent = "";
-        loaderIndex = -1;
     }
 }, 1400);
 // function animateText() {
