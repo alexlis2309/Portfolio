@@ -24,7 +24,10 @@ let count = 0;
 intervalId = setInterval(function () {
     if (++count === 5) {
         clearInterval(intervalId);
-        loaderDel.parentNode.removeChild(loaderDel);
+        loaderIndex=-1;
+        loader.textContent = "";
+        let endOfLoading="Loading complited";
+        start(endOfLoading, loader);
     }
     else {
         start(loaderText, loader);
