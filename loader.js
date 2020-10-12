@@ -86,11 +86,9 @@ function animate({timing, draw, duration}) {
 let count=0;
 intervalId = setInterval(function () {
     if (++count === 4) {
-        loader.textContent="";
-        if (loader.textContent==="") {
+        loaderDel.removeChild(loader);
             clearInterval(intervalId);
-            start(endOfLoading, loader, true);
-        }
+            start(endOfLoading, loader1, true);
     }
     else {
              animateText(textLoading, loader);
