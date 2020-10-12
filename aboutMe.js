@@ -1,4 +1,3 @@
-function about () {
-    let text = "Aliaksey Lisousky";
-    start(text,loader);
-}
+loader.textContent = "";
+loaderIndex=-1;
+let textss = "Aliaksey Lisousky";

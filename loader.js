@@ -1,9 +1,12 @@
 let loader = document.getElementById("loader");
+let loader1 = document.getElementById("command");
 let loaderDel = document.querySelector(".loader");
 let loaderText = "Loading...";
-let loaderIndex = -1;
+let index = -1;
+let index1 = -1;
+let endOfLoading = "Loading complited Write !help to get information";
 //-----------------------------------------------------------alternate typing function
-function start(text,loa) {
+function start(text,loa,loaderIndex) {
    let timer = window.setInterval(function () {
         if (++loaderIndex === text.length) {
             clearInterval(timer);
@@ -20,25 +23,27 @@ function start(text,loa) {
     }, 100);
 }
 let count = 0;
-//----------------------------------------------------------function-timer to do start() 5 times
-intervalId = setInterval(function () {
-    if (++count === 5) {
+// intervalId = setInterval(() => { start(loaderText, loader);
+//                                              }, (loaderText.length+2)*100);
+//                  setTimeout(() => { clearInterval(intervalId);
+//                                             }, 3000);
+//----------------------------------------------------------function-timer for loader
+let intervalId = setInterval(function () {
+    if (++count === 3) {
         clearInterval(intervalId);
-        loaderIndex=-1;
-        loader.textContent = "";
-        let endOfLoading="Loading complited";
-        start(endOfLoading, loader);
+        loaderDel.removeChild(loader);
+        start(endOfLoading, loader1,index1);
     }
     else {
-        start(loaderText, loader);
-        loaderIndex=-1;
+        start(loaderText, loader,index);
         loader.textContent = "";
+        index=-1;
     }
 }, 1400);
 // function animateText() {
 //     let text = 'Loading...';
 //     let to = text.length;
-//
+
 //     animate({
 //         duration: 1000,
 //         timing: quad,
