@@ -3,8 +3,39 @@
   <component name="ChangeListManager">
     <list default="true" id="5941d690-d630-454e-a785-cb4d20ab349d" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aboutMe.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/19355.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/19783.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/Game.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/icons/Tilda_Icons_1ed_beaker.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/icons/Tilda_Icons_1ed_beaker1.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/icons/Tilda_Icons_1ed_book.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/icons/Tilda_Icons_1ed_brain.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/icons/Tilda_Icons_1ed_calendar.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/icons/Tilda_Icons_1ed_cup.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/icons/Tilda_Icons_1ed_discount.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/icons/Tilda_Icons_1ed_flipchart.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/icons/Tilda_Icons_1ed_glasses.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/icons/Tilda_Icons_1ed_group.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/icons/Tilda_Icons_1ed_hat.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/icons/Tilda_Icons_1ed_hourglass.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/icons/Tilda_Icons_1ed_lightbulb 14.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/icons/Tilda_Icons_1ed_list.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/icons/Tilda_Icons_1ed_location.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/icons/Tilda_Icons_1ed_mail.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/icons/Tilda_Icons_1ed_phone.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/icons/Tilda_Icons_1ed_purse.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/icons/Tilda_Icons_1ed_speaker.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/icons/Tilda_Icons_1ed_teacher.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/icons/Tilda_Icons_1ed_timer.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/Clipboard02.jpg" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/loader.js" beforeDir="false" afterPath="$PROJECT_DIR$/loader.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/loader.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/menu.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sounds/sound.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -76,7 +107,9 @@
       <workItem from="1602502269865" duration="1000000" />
       <workItem from="1602508523312" duration="555000" />
       <workItem from="1602512938632" duration="2917000" />
-      <workItem from="1602519713351" duration="1929000" />
+      <workItem from="1602519713351" duration="2467000" />
+      <workItem from="1602538369751" duration="1689000" />
+      <workItem from="1602541438295" duration="42000" />
     </task>
     <servers />
   </component>
