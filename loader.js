@@ -94,7 +94,6 @@ function timer(form, adjust, morework)
         counter = 0,
         start = new Date().getTime();
 
-    //пример таймера
     function instance()
     {
         //если флаг morework == true,
@@ -105,7 +104,6 @@ function timer(form, adjust, morework)
         }
 
         //вычисляем идеальное и реальное время работы таймера
-        //судя по всему, в оригинале, автор изменил названия переменных, чтобы идентифицировать свой код при перепосте.
         let real = (counter * speed),
             ideal = (new Date().getTime() - start);
 
@@ -120,20 +118,20 @@ function timer(form, adjust, morework)
         let diff = (ideal - real);
         form.diff.value = diff;
 
-        //если флаг adjust == true, будем вычитать разницу перед последующим вызовом (тем самым реализовав необходимое упреждение)
+        //если флаг adjust == true, будем вычитать разницу перед последующим вызовом
         if(adjust)
         {
             timeouts[form.id] = window.setTimeout(function() { instance(); }, (speed - diff));
         }
 
-        //и, если флага нет, просто вызываем следующую итерацию
+        //если флага нет, просто вызываем следующую итерацию
         else
         {
             timeouts[form.id] = window.setTimeout(function() { instance(); }, speed);
         }
     };
 
-    //далее, просто отбрасываем все прочь в случае обычного таймера
+    //отбрасываем все прочь в случае обычного таймера
     timeouts[form.id] = window.setTimeout(function() { instance(); }, speed);
 }
 //таймер с самокорректировкой
